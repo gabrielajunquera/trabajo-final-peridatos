@@ -1,0 +1,1396 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>67518c2e3b2d4fd58e4ba78ad30565ca</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="práctica-de-mapa-en-python-zaragoza" class="cell markdown">
+<h2>Práctica de mapa en Python: Zaragoza</h2>
+</section>
+<div class="cell markdown">
+<p>Para esta práctica hemos escogido un conjunto de datos sobre accidentes de tráfico procedentes del ayuntamiento de Zaragoza. Usaremos un archivo csv que clasifica los datos según categorías (vehículo, estado, afectado, tipo, año) y la localización donde se ha producido el accidente. Ya que tenemos la localización es útil usar un mapa donde podamos localizar los datos que se nos proporcionan. Para ello seleccionamos las variable de la url de los datos, y de la localización que queremos que aparezca en el mapa: url_zrgz y geo_zrgz</p>
+</div>
+<div class="cell code" data-execution_count="1">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a>url_zrgz <span class="op">=</span> <span class="st">&quot;https://www.zaragoza.es/sede/servicio/transporte/accidentalidad-trafico/accidente.csv&quot;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>geo_zrgz <span class="op">=</span> [<span class="fl">41.649693</span>,<span class="op">-</span><span class="fl">0.887712</span>]</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Folium es una librería que permite visualizar mapas en Python. Vamos a instalarla. Para la visualización de los datos usaremos 'pip', es decir, el sistema que nos ofrece python</p>
+</div>
+<div class="cell code" data-execution_count="2">
+<div class="sourceCode" id="cb2"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install folium</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Requirement already satisfied: folium in ./.local/lib/python3.8/site-packages (0.12.1.post1)
+Requirement already satisfied: branca&gt;=0.3.0 in ./.local/lib/python3.8/site-packages (from folium) (0.4.2)
+Requirement already satisfied: numpy in /usr/local/lib/python3.8/dist-packages (from folium) (1.21.1)
+Requirement already satisfied: requests in /usr/local/lib/python3.8/dist-packages (from folium) (2.25.0)
+Requirement already satisfied: jinja2&gt;=2.9 in /usr/lib/python3/dist-packages (from folium) (2.10.1)
+Requirement already satisfied: urllib3&lt;1.27,&gt;=1.21.1 in /usr/lib/python3/dist-packages (from requests-&gt;folium) (1.25.8)
+Requirement already satisfied: certifi&gt;=2017.4.17 in /usr/local/lib/python3.8/dist-packages (from requests-&gt;folium) (2020.6.20)
+Requirement already satisfied: chardet&lt;4,&gt;=3.0.2 in /usr/lib/python3/dist-packages (from requests-&gt;folium) (3.0.4)
+Requirement already satisfied: idna&lt;3,&gt;=2.5 in /usr/lib/python3/dist-packages (from requests-&gt;folium) (2.8)
+</code></pre>
+</div>
+</div>
+<div class="cell markdown" data-slideshow="{&quot;slide_type&quot;:&quot;slide&quot;}">
+<p>Para esta práctica vamos a utilizar una librería folium.</p>
+</div>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb4-2"><a href="#cb4-2" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> folium</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Ahora que tenemos el mapa asignamos sus variables. Se incluye, entonces (mapa_zrgz) a la visualizacion que hace folium con <code>folium.Map</code>de la localizacion que habíamos indicado con geo_zrgz</p>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>mapa_zrgz <span class="op">=</span> folium.Map(location<span class="op">=</span>geo_zrgz)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Para visualizar el mapa</p>
+</div>
+<div class="cell code" data-execution_count="5">
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>mapa_zrgz</span></code></pre></div>
+<div class="output execute_result" data-execution_count="5">
+<div style="width:100%;"><div style="position:relative;width:100%;height:0;padding-bottom:60%;"><span style="color:#565656">Make this Notebook Trusted to load map: File -> Trust Notebook</span><iframe src="about:blank" style="position:absolute;width:100%;height:100%;left:0;top:0;border:none !important;" data-html=%3C%21DOCTYPE%20html%3E%0A%3Chead%3E%20%20%20%20%0A%20%20%20%20%3Cmeta%20http-equiv%3D%22content-type%22%20content%3D%22text/html%3B%20charset%3DUTF-8%22%20/%3E%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%3Cscript%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20L_NO_TOUCH%20%3D%20false%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20L_DISABLE_3D%20%3D%20false%3B%0A%20%20%20%20%20%20%20%20%3C/script%3E%0A%20%20%20%20%0A%20%20%20%20%3Cstyle%3Ehtml%2C%20body%20%7Bwidth%3A%20100%25%3Bheight%3A%20100%25%3Bmargin%3A%200%3Bpadding%3A%200%3B%7D%3C/style%3E%0A%20%20%20%20%3Cstyle%3E%23map%20%7Bposition%3Aabsolute%3Btop%3A0%3Bbottom%3A0%3Bright%3A0%3Bleft%3A0%3B%7D%3C/style%3E%0A%20%20%20%20%3Cscript%20src%3D%22https%3A//cdn.jsdelivr.net/npm/leaflet%401.6.0/dist/leaflet.js%22%3E%3C/script%3E%0A%20%20%20%20%3Cscript%20src%3D%22https%3A//code.jquery.com/jquery-1.12.4.min.js%22%3E%3C/script%3E%0A%20%20%20%20%3Cscript%20src%3D%22https%3A//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js%22%3E%3C/script%3E%0A%20%20%20%20%3Cscript%20src%3D%22https%3A//cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js%22%3E%3C/script%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A//cdn.jsdelivr.net/npm/leaflet%401.6.0/dist/leaflet.css%22/%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css%22/%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css%22/%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css%22/%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A//cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css%22/%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https%3A//cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css%22/%3E%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20initial-scale%3D1.0%2C%20maximum-scale%3D1.0%2C%20user-scalable%3Dno%22%20/%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cstyle%3E%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%23map_2b4e6d324ce84f1293e4238e2c307c42%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20position%3A%20relative%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20width%3A%20100.0%25%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20height%3A%20100.0%25%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20left%3A%200.0%25%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20top%3A%200.0%25%3B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%3C/style%3E%0A%20%20%20%20%20%20%20%20%0A%3C/head%3E%0A%3Cbody%3E%20%20%20%20%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Cdiv%20class%3D%22folium-map%22%20id%3D%22map_2b4e6d324ce84f1293e4238e2c307c42%22%20%3E%3C/div%3E%0A%20%20%20%20%20%20%20%20%0A%3C/body%3E%0A%3Cscript%3E%20%20%20%20%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20var%20map_2b4e6d324ce84f1293e4238e2c307c42%20%3D%20L.map%28%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22map_2b4e6d324ce84f1293e4238e2c307c42%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7B%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20center%3A%20%5B41.649693%2C%20-0.887712%5D%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20crs%3A%20L.CRS.EPSG3857%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20zoom%3A%2010%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20zoomControl%3A%20true%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20preferCanvas%3A%20false%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%29%3B%0A%0A%20%20%20%20%20%20%20%20%20%20%20%20%0A%0A%20%20%20%20%20%20%20%20%0A%20%20%20%20%0A%20%20%20%20%20%20%20%20%20%20%20%20var%20tile_layer_583692ee09ec4c2fa8387389dc01010f%20%3D%20L.tileLayer%28%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%22https%3A//%7Bs%7D.tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png%22%2C%0A%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%7B%22attribution%22%3A%20%22Data%20by%20%5Cu0026copy%3B%20%5Cu003ca%20href%3D%5C%22http%3A//openstreetmap.org%5C%22%5Cu003eOpenStreetMap%5Cu003c/a%5Cu003e%2C%20under%20%5Cu003ca%20href%3D%5C%22http%3A//www.openstreetmap.org/copyright%5C%22%5Cu003eODbL%5Cu003c/a%5Cu003e.%22%2C%20%22detectRetina%22%3A%20false%2C%20%22maxNativeZoom%22%3A%2018%2C%20%22maxZoom%22%3A%2018%2C%20%22minZoom%22%3A%200%2C%20%22noWrap%22%3A%20false%2C%20%22opacity%22%3A%201%2C%20%22subdomains%22%3A%20%22abc%22%2C%20%22tms%22%3A%20false%7D%0A%20%20%20%20%20%20%20%20%20%20%20%20%29.addTo%28map_2b4e6d324ce84f1293e4238e2c307c42%29%3B%0A%20%20%20%20%20%20%20%20%0A%3C/script%3E onload="this.contentDocument.open();this.contentDocument.write(    decodeURIComponent(this.getAttribute('data-html')));this.contentDocument.close();" allowfullscreen webkitallowfullscreen mozallowfullscreen></iframe></div></div>
+</div>
+</div>
+<div class="cell markdown">
+<p>Ahora exploraremos los datos: Designamos el dataframe y lo igualamos a la lectura que hace Pandas (pd) de los datos mencionados, el archivo csv de la url que hemos designado previamente. Los datos estan separados en vez de por comas, por puntos y comas, así que tenemos que indicarlo. Para ello añadimos <code>delimiter=";"</code> antes de cerrar el paréntesis )</p>
+</div>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df_zrgz <span class="op">=</span> pd.read_csv(url_zrgz,delimiter<span class="op">=</span><span class="st">&quot;;&quot;</span>)</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>df_zrgz</span></code></pre></div>
+<div class="output execute_result" data-execution_count="6">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>id</th>
+      <th>year</th>
+      <th>type</th>
+      <th>accidentType</th>
+      <th>firstAddress</th>
+      <th>secondAddress</th>
+      <th>geometry</th>
+      <th>reason</th>
+      <th>area</th>
+      <th>creationDate</th>
+      <th>daniosMateriales</th>
+      <th>falloMecanico</th>
+      <th>estadoPavimento</th>
+      <th>tipoEstadoPavimento</th>
+      <th>estadoAtmosfera</th>
+      <th>tipoEstadoAtmosfera</th>
+      <th>afectado</th>
+      <th>vehiculo</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>SALIDA CALZADA</td>
+      <td>NaN</td>
+      <td>COSTA, JOAQUIN</td>
+      <td>PERAL, ISAAC</td>
+      <td>-0.8818527060979306,41.649027473051156</td>
+      <td>PERDIDA del control por FALTA de ATENCIÓN</td>
+      <td>NaN</td>
+      <td>2014-10-09T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>COLISIÓN ALCANCE</td>
+      <td>NaN</td>
+      <td>CADENA(MARQUES DE LA)</td>
+      <td>NaN</td>
+      <td>-0.8645810716721081,41.661585829868585</td>
+      <td>DISTANCIA DE SEGURIDAD, no mantener</td>
+      <td>2560.0</td>
+      <td>2014-10-23T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>COLISIÓN ALCANCE</td>
+      <td>NaN</td>
+      <td>GOMEZ AVELLANEDA, G.</td>
+      <td>CASTRO, R. (POETA)</td>
+      <td>-0.887776415002892,41.666992622958105</td>
+      <td>PERDIDA del control por FALTA de ATENCIÓN</td>
+      <td>2598.0</td>
+      <td>2014-10-23T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>COLIS FRONTOLATERAL</td>
+      <td>NaN</td>
+      <td>MONZON</td>
+      <td>GARCIA CONDOY, H.</td>
+      <td>-0.8825260453930127,41.62957498750602</td>
+      <td>CEDA EL PASO, no respetar prioridad de paso</td>
+      <td>2555.0</td>
+      <td>2014-10-23T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>SALIDA CALZADA</td>
+      <td>NaN</td>
+      <td>RIOJA</td>
+      <td>NAVARRA, AVENIDA DE</td>
+      <td>-0.908314757720389,41.6562121210704</td>
+      <td>PERDIDA del control por VELOCIDAD INADECUADA</td>
+      <td>2554.0</td>
+      <td>2014-10-24T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>OTRAS</td>
+      <td>NaN</td>
+      <td>MUEL</td>
+      <td>NaN</td>
+      <td>-0.8691088511672924,41.65949772773082</td>
+      <td>Caída de ocupante en Transporte Público</td>
+      <td>2578.0</td>
+      <td>2014-10-24T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>6</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>ATROPELLO</td>
+      <td>NaN</td>
+      <td>PIGNATELLI, RAMON VIA</td>
+      <td>NaN</td>
+      <td>-0.8880337913721866,41.633353667694024</td>
+      <td>PEATÓN cruza calz SIN PREFER. fuera de paso</td>
+      <td>2606.0</td>
+      <td>2014-10-24T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>7</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>CAIDA SOBRE CALZADA</td>
+      <td>NaN</td>
+      <td>ALIERTA, AV. CESAREO</td>
+      <td>AULA, LUIS</td>
+      <td>-0.8708838775078237,41.6390382112928</td>
+      <td>INVADIR otro carril en el mismo sentido de cir...</td>
+      <td>2583.0</td>
+      <td>2014-10-24T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>8</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>COLIS. MARCHA ATRÁS</td>
+      <td>NaN</td>
+      <td>CERBUNA, PEDRO</td>
+      <td>NaN</td>
+      <td>-0.8970649943808023,41.64083344974765</td>
+      <td>PERDIDA del control por FALTA de ATENCIÓN</td>
+      <td>2556.0</td>
+      <td>2014-10-24T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>9</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>COLISIÓN LATERAL</td>
+      <td>NaN</td>
+      <td>ASALTO</td>
+      <td>COCCI, JORGE</td>
+      <td>-0.8718525605769747,41.64904657717317</td>
+      <td>INVADIR otro carril en el mismo sentido de cir...</td>
+      <td>4657.0</td>
+      <td>2013-12-20T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>10</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>OTRAS</td>
+      <td>NaN</td>
+      <td>ARAGON (CORONA DE)</td>
+      <td>SAN ANTONIO M CLARET</td>
+      <td>-0.8964627561577849,41.64322365075108</td>
+      <td>Caída de ocupante en Transporte Público</td>
+      <td>63.0</td>
+      <td>2013-12-21T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>11</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>COLISIÓN ALCANCE</td>
+      <td>NaN</td>
+      <td>FRAGUA, LA</td>
+      <td>GASSIER, PIERRE</td>
+      <td>-0.8778095796207178,41.68753087470739</td>
+      <td>PERDIDA del control por FALTA de ATENCIÓN</td>
+      <td>4780.0</td>
+      <td>2013-12-22T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>12</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>SALIDA CALZADA</td>
+      <td>NaN</td>
+      <td>PIRINEOS, AV. DE LOS</td>
+      <td>NaN</td>
+      <td>-0.8812157329722801,41.661646612715046</td>
+      <td>PERDIDA del control por FALTA de ATENCIÓN</td>
+      <td>4661.0</td>
+      <td>2013-12-22T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>13</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>COLISIÓN ALCANCE</td>
+      <td>NaN</td>
+      <td>TORRES, CAMINO DE LAS</td>
+      <td>NaN</td>
+      <td>-0.8762000299022707,41.6454384961757</td>
+      <td>PERDIDA del control por FALTA de ATENCIÓN</td>
+      <td>4667.0</td>
+      <td>2013-12-22T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>14</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>ATROPELLO</td>
+      <td>NaN</td>
+      <td>RIOJA</td>
+      <td>NAVARRA, AVENIDA DE</td>
+      <td>-0.9089013552408617,41.65543768899759</td>
+      <td>PEATÓN cruza calz SIN PREFER. en PASO CON semá...</td>
+      <td>4664.0</td>
+      <td>2013-12-22T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>15</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>COLISIÓN ALCANCE</td>
+      <td>NaN</td>
+      <td>ITALIA</td>
+      <td>NaN</td>
+      <td>-0.9004729973337304,41.65180346604993</td>
+      <td>PERDIDA del control por FALTA de ATENCIÓN</td>
+      <td>4671.0</td>
+      <td>2013-12-22T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>16</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>COLISIÓN ALCANCE</td>
+      <td>NaN</td>
+      <td>AGUSTIN, PASEO MARIA</td>
+      <td>MAYANDIA (GENERAL)</td>
+      <td>-0.8917562993466011,41.65233828238132</td>
+      <td>DISTANCIA DE SEGURIDAD, no mantener</td>
+      <td>18.0</td>
+      <td>2013-12-20T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>17</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>COLISIÓN ALCANCE</td>
+      <td>NaN</td>
+      <td>AGUSTIN, PASEO MARIA</td>
+      <td>SANTA ANA</td>
+      <td>-0.888856043735591,41.65040494617356</td>
+      <td>PERDIDA del control por FALTA de ATENCIÓN</td>
+      <td>4718.0</td>
+      <td>2013-12-23T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>18</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>COLISIÓN ALCANCE</td>
+      <td>NaN</td>
+      <td>CASPE, AV.COMPROMISO</td>
+      <td>NaN</td>
+      <td>-0.8629911318784169,41.645335650478316</td>
+      <td>PERDIDA del control por FALTA de ATENCIÓN</td>
+      <td>4723.0</td>
+      <td>2013-12-23T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>19</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>COLISIÓN ALCANCE</td>
+      <td>NaN</td>
+      <td>MURANO, ISLA DE AV.</td>
+      <td>NaN</td>
+      <td>-0.8870207060655807,41.609992514227066</td>
+      <td>PERDIDA del control por FALTA de ATENCIÓN</td>
+      <td>NaN</td>
+      <td>2013-12-23T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>20</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>COLISIÓN LATERAL</td>
+      <td>NaN</td>
+      <td>HISPANIDAD, RONDA DE</td>
+      <td>ALIERTA, AV. CESAREO</td>
+      <td>-0.8636325074780108,41.63379905763323</td>
+      <td>PUERTA abierta incorrectamente</td>
+      <td>17.0</td>
+      <td>2013-12-23T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>21</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>CAIDA SOBRE CALZADA</td>
+      <td>NaN</td>
+      <td>ZARAGOZA LA VIEJA</td>
+      <td>NaN</td>
+      <td>-0.8760724207544668,41.63275556609146</td>
+      <td>PERDIDA del control por FALTA de ATENCIÓN</td>
+      <td>4677.0</td>
+      <td>2013-12-21T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>22</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>COLISIÓN ALCANCE</td>
+      <td>NaN</td>
+      <td>ASIN Y PALACIOS, MIG.</td>
+      <td>NaN</td>
+      <td>-0.9036852209830768,41.63808926467497</td>
+      <td>PERDIDA del control por FALTA de ATENCIÓN</td>
+      <td>NaN</td>
+      <td>2013-12-17T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>23</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>COLIS. MARCHA ATRÁS</td>
+      <td>NaN</td>
+      <td>ZAMBRANO, M. (POETA)</td>
+      <td>NaN</td>
+      <td>-0.8896980442453839,41.677487884305975</td>
+      <td>MARCHA ATRÁS</td>
+      <td>4783.0</td>
+      <td>2013-12-23T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>24</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>SALIDA CALZADA</td>
+      <td>NaN</td>
+      <td>ALBA (DUQUE DE),PASEO</td>
+      <td>NaN</td>
+      <td>-0.9018264648858587,41.620591734015946</td>
+      <td>PERDIDA del control por VELOCIDAD INADECUADA</td>
+      <td>4679.0</td>
+      <td>2013-12-15T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>25</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>COLIS FRONTOLATERAL</td>
+      <td>NaN</td>
+      <td>HISPANIDAD, VIA</td>
+      <td>MADRID, AVENIDA DE</td>
+      <td>-0.9187726932212442,41.64931371437485</td>
+      <td>SEMÁFORO, no respetar prioridad de paso</td>
+      <td>4773.0</td>
+      <td>2013-12-20T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>26</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>COLISIÓN LATERAL</td>
+      <td>NaN</td>
+      <td>PARAISO, PL.BASILIO</td>
+      <td>NaN</td>
+      <td>-0.8855988456901538,41.646890443474554</td>
+      <td>INVADIR otro carril en el mismo sentido de cir...</td>
+      <td>4702.0</td>
+      <td>2013-12-17T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>27</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>COLISIÓN LATERAL</td>
+      <td>NaN</td>
+      <td>HISPANIDAD, RONDA DE</td>
+      <td>NaN</td>
+      <td>-0.887523212911549,41.62404668544956</td>
+      <td>PUERTA abierta incorrectamente</td>
+      <td>4701.0</td>
+      <td>2013-12-20T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>28</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>COLISIÓN LATERAL</td>
+      <td>NaN</td>
+      <td>SAGASTA, PASEO DE</td>
+      <td>NaN</td>
+      <td>-0.8863120908790753,41.63964884250951</td>
+      <td>INVADIR otro carril en el mismo sentido de cir...</td>
+      <td>4700.0</td>
+      <td>2013-12-19T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>29</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>COLISIÓN LATERAL</td>
+      <td>NaN</td>
+      <td>CABALDOS, CAMINO DE</td>
+      <td>NaN</td>
+      <td>-0.8689640327130923,41.638477534601776</td>
+      <td>INVADIR otro carril en el mismo sentido de cir...</td>
+      <td>4752.0</td>
+      <td>2013-12-24T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>30</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>CAIDA SOBRE CALZADA</td>
+      <td>NaN</td>
+      <td>GOYA,FCO.(PINTOR) AV.</td>
+      <td>TORRES MORALES, M.G.</td>
+      <td>-0.8900650666830714,41.64332496247496</td>
+      <td>DISTANCIA DE SEGURIDAD, no mantener</td>
+      <td>4751.0</td>
+      <td>2013-12-24T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>31</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>COLISIÓN LATERAL</td>
+      <td>NaN</td>
+      <td>AGUSTIN, PASEO MARIA</td>
+      <td>NaN</td>
+      <td>-0.8918524618079099,41.65260977469196</td>
+      <td>INVADIR otro carril en el mismo sentido de cir...</td>
+      <td>4750.0</td>
+      <td>2013-12-25T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>32</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>OTRAS</td>
+      <td>NaN</td>
+      <td>RIOJA</td>
+      <td>NaN</td>
+      <td>-0.9104038365599549,41.65248328671194</td>
+      <td>OTRAS CAUSAS</td>
+      <td>NaN</td>
+      <td>2013-12-19T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>33</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>COLISIÓN LATERAL</td>
+      <td>NaN</td>
+      <td>CONSTITUCION, PASEO</td>
+      <td>PARAISO, PL.BASILIO</td>
+      <td>-0.8850103896969528,41.6474034449745</td>
+      <td>INVADIR otro carril en el mismo sentido de cir...</td>
+      <td>2682.0</td>
+      <td>2014-10-24T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>34</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>COLIS. MARCHA ATRÁS</td>
+      <td>NaN</td>
+      <td>TORRE</td>
+      <td>NaN</td>
+      <td>-0.8734135018983006,41.64926981833846</td>
+      <td>MARCHA ATRÁS</td>
+      <td>2626.0</td>
+      <td>2014-10-27T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>35</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>COLISIÓN ALCANCE</td>
+      <td>NaN</td>
+      <td>ECHEGARAY Y CABALLERO</td>
+      <td>MATUTE HERVIAS,JULIAN</td>
+      <td>-0.8593239531218387,41.650740541708075</td>
+      <td>PERDIDA del control por FALTA de ATENCIÓN</td>
+      <td>2605.0</td>
+      <td>2014-10-27T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>36</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>COLIS FRONTOLATERAL</td>
+      <td>NaN</td>
+      <td>CABALDOS, CAMINO DE</td>
+      <td>CASTELAR, EMILIO</td>
+      <td>-0.868891092151338,41.638807389014836</td>
+      <td>INVADIR otro carril en el mismo sentido de cir...</td>
+      <td>2591.0</td>
+      <td>2014-10-25T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>37</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>ATROPELLO</td>
+      <td>NaN</td>
+      <td>ALMOZARA, AV. DE LA</td>
+      <td>PUERTA DE SANCHO, AV.</td>
+      <td>-0.9008107424460443,41.66374540604866</td>
+      <td>PEATÓN cruza calz CON PREFER. en PASO  CON sem...</td>
+      <td>2610.0</td>
+      <td>2014-10-29T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>38</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>COLIS. MARCHA ATRÁS</td>
+      <td>NaN</td>
+      <td>OLIVAN, ALEJANDRO</td>
+      <td>BOSQUED, JOSE (MOSEN)</td>
+      <td>-0.9211220937948997,41.64886535549928</td>
+      <td>MARCHA ATRÁS</td>
+      <td>2594.0</td>
+      <td>2014-10-24T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>39</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>COLIS. MARCHA ATRÁS</td>
+      <td>NaN</td>
+      <td>ARRUPE, PADRE</td>
+      <td>VAZQUEZ DE MELLA</td>
+      <td>-0.9026681648170423,41.63265453864093</td>
+      <td>MARCHA ATRÁS</td>
+      <td>2596.0</td>
+      <td>2014-10-20T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>40</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>COLIS FRONTOLATERAL</td>
+      <td>NaN</td>
+      <td>RUIZ PICASSO, PABLO</td>
+      <td>ZAMBRANO, M. (POETA)</td>
+      <td>-0.8893162332922886,41.67281318904247</td>
+      <td>OTRAS CAUSAS</td>
+      <td>2640.0</td>
+      <td>2014-10-29T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>41</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>ATROPELLO</td>
+      <td>NaN</td>
+      <td>CAMPOAMOR, CLARA</td>
+      <td>NaN</td>
+      <td>-0.8890866503471749,41.66895757951277</td>
+      <td>PEATÓN cruza calz CON PREFER. en PASO  SIN sem...</td>
+      <td>2600.0</td>
+      <td>2014-10-29T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>42</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>SALIDA CALZADA</td>
+      <td>NaN</td>
+      <td>CASCAJO, CN. DEL  SJN</td>
+      <td>NaN</td>
+      <td>-0.8439506345833918,41.71496486522088</td>
+      <td>PERDIDA del control por FALTA de ATENCIÓN</td>
+      <td>NaN</td>
+      <td>2014-10-29T00:00:00Z</td>
+      <td>False</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>43</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>SALIDA CALZADA</td>
+      <td>NaN</td>
+      <td>EDISON, TOMAS A</td>
+      <td>NaN</td>
+      <td>-0.8665477541801948,41.67007665525934</td>
+      <td>PERDIDA del control por FALTA de ATENCIÓN</td>
+      <td>NaN</td>
+      <td>2014-10-29T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>44</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>COLISIÓN ALCANCE</td>
+      <td>NaN</td>
+      <td>CUELLAR, PASEO DE</td>
+      <td>NaN</td>
+      <td>-0.8848493117953854,41.63484525009101</td>
+      <td>PERDIDA del control por FALTA de ATENCIÓN</td>
+      <td>2604.0</td>
+      <td>2014-10-28T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>45</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>COLISIÓN LATERAL</td>
+      <td>NaN</td>
+      <td>HISPANIDAD, VIA</td>
+      <td>GOMEZ LAGUNA(ALCALDE)</td>
+      <td>-0.9147014503640727,41.64060309287472</td>
+      <td>INVADIR otro carril en el mismo sentido de cir...</td>
+      <td>2624.0</td>
+      <td>2014-10-29T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>46</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>COLISIÓN ALCANCE</td>
+      <td>NaN</td>
+      <td>PLAN, IBON DE</td>
+      <td>AEROPUERTO, CARRETERA</td>
+      <td>-0.9388159722509236,41.66210291413718</td>
+      <td>DISTANCIA DE SEGURIDAD, no mantener</td>
+      <td>2611.0</td>
+      <td>2014-10-27T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>47</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2014</td>
+      <td>SALIDA CALZADA</td>
+      <td>NaN</td>
+      <td>FANLO</td>
+      <td>NaN</td>
+      <td>-0.9157439755527074,41.63348367532985</td>
+      <td>PERDIDA del control por FALTA de ATENCIÓN</td>
+      <td>2631.0</td>
+      <td>2014-10-27T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>48</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>SALIDA CALZADA</td>
+      <td>NaN</td>
+      <td>AZNAR,ADOLFO(CINEASTA</td>
+      <td>BELTRAN,J.M.(CINEASTA</td>
+      <td>-0.8869959298557372,41.67593597602368</td>
+      <td>PERDIDA del control por FALTA de ATENCIÓN</td>
+      <td>4438.0</td>
+      <td>2013-12-02T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+    <tr>
+      <th>49</th>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+      <td>2013</td>
+      <td>SALIDA CALZADA</td>
+      <td>NaN</td>
+      <td>ALLENDE, SALVADOR AV.</td>
+      <td>NaN</td>
+      <td>-0.876909940066992,41.672106692157605</td>
+      <td>PERDIDA del control por FALTA de ATENCIÓN</td>
+      <td>4684.0</td>
+      <td>2013-12-05T00:00:00Z</td>
+      <td>True</td>
+      <td>False</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>BUEN ESTADO</td>
+      <td>NaN</td>
+      <td>NaN</td>
+      <td>https://www.zaragoza.es/sede/servicio/transpor...</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>Ya tenemos nuestros datos ordenados como queremos. Ahora podemos modificar la visualización. Si por ejemplo queremos filtrar los datos por el tipo de razones de los accidentes, indicamos que solo nos indique esa caracteristica y solo esa, aplicando <code>.unique</code></p>
+</div>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>df_zrgz[<span class="st">&quot;reason&quot;</span>].unique()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+<pre><code>array([&#39;PERDIDA del control por FALTA de ATENCIÓN&#39;,
+       &#39;DISTANCIA DE SEGURIDAD, no mantener&#39;,
+       &#39;CEDA EL PASO, no respetar prioridad de paso&#39;,
+       &#39;PERDIDA del control por VELOCIDAD INADECUADA&#39;,
+       &#39;Caída de ocupante en Transporte Público&#39;,
+       &#39;PEATÓN cruza calz SIN PREFER. fuera de paso&#39;,
+       &#39;INVADIR otro carril en el mismo sentido de circulación&#39;,
+       &#39;PEATÓN cruza calz SIN PREFER. en PASO CON semáforo&#39;,
+       &#39;PUERTA abierta incorrectamente&#39;, &#39;MARCHA ATRÁS&#39;,
+       &#39;SEMÁFORO, no respetar prioridad de paso&#39;, &#39;OTRAS CAUSAS&#39;,
+       &#39;PEATÓN cruza calz CON PREFER. en PASO  CON semáforo&#39;,
+       &#39;PEATÓN cruza calz CON PREFER. en PASO  SIN semáforo&#39;],
+      dtype=object)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="8">
+<div class="sourceCode" id="cb10"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a>df_zrgz[<span class="st">&quot;type&quot;</span>].unique()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="8">
+<pre><code>array([&#39;SALIDA CALZADA&#39;, &#39;COLISIÓN ALCANCE&#39;, &#39;COLIS FRONTOLATERAL&#39;,
+       &#39;OTRAS&#39;, &#39;ATROPELLO&#39;, &#39;CAIDA SOBRE CALZADA&#39;, &#39;COLIS. MARCHA ATRÁS&#39;,
+       &#39;COLISIÓN LATERAL&#39;], dtype=object)</code></pre>
+</div>
+</div>
+</body>
+</html>
