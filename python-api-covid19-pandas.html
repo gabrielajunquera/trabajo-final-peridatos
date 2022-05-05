@@ -1,0 +1,1551 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>8dea79e30191466a8a3f39b024aa4a1b</title>
+  <style>
+    html {
+      line-height: 1.5;
+      font-family: Georgia, serif;
+      font-size: 20px;
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      word-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 1em;
+      }
+    }
+    @media print {
+      body {
+        background-color: transparent;
+        color: black;
+        font-size: 12pt;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      font-family: Menlo, Monaco, 'Lucida Console', Consolas, monospace;
+      font-size: 85%;
+      margin: 0;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      background-color: #1a1a1a;
+      border: none;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    span.underline{text-decoration: underline;}
+    div.column{display: inline-block; vertical-align: top; width: 50%;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    pre > code.sourceCode { white-space: pre; position: relative; }
+    pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+    pre > code.sourceCode > span:empty { height: 1.2em; }
+    .sourceCode { overflow: visible; }
+    code.sourceCode > span { color: inherit; text-decoration: inherit; }
+    div.sourceCode { margin: 1em 0; }
+    pre.sourceCode { margin: 0; }
+    @media screen {
+    div.sourceCode { overflow: auto; }
+    }
+    @media print {
+    pre > code.sourceCode { white-space: pre-wrap; }
+    pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+    }
+    pre.numberSource code
+      { counter-reset: source-line 0; }
+    pre.numberSource code > span
+      { position: relative; left: -4em; counter-increment: source-line; }
+    pre.numberSource code > span > a:first-child::before
+      { content: counter(source-line);
+        position: relative; left: -1em; text-align: right; vertical-align: baseline;
+        border: none; display: inline-block;
+        -webkit-touch-callout: none; -webkit-user-select: none;
+        -khtml-user-select: none; -moz-user-select: none;
+        -ms-user-select: none; user-select: none;
+        padding: 0 4px; width: 4em;
+        color: #aaaaaa;
+      }
+    pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+    div.sourceCode
+      {   }
+    @media screen {
+    pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+    }
+    code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+    code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+    code span.at { color: #7d9029; } /* Attribute */
+    code span.bn { color: #40a070; } /* BaseN */
+    code span.bu { } /* BuiltIn */
+    code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+    code span.ch { color: #4070a0; } /* Char */
+    code span.cn { color: #880000; } /* Constant */
+    code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+    code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+    code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+    code span.dt { color: #902000; } /* DataType */
+    code span.dv { color: #40a070; } /* DecVal */
+    code span.er { color: #ff0000; font-weight: bold; } /* Error */
+    code span.ex { } /* Extension */
+    code span.fl { color: #40a070; } /* Float */
+    code span.fu { color: #06287e; } /* Function */
+    code span.im { } /* Import */
+    code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+    code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+    code span.op { color: #666666; } /* Operator */
+    code span.ot { color: #007020; } /* Other */
+    code span.pp { color: #bc7a00; } /* Preprocessor */
+    code span.sc { color: #4070a0; } /* SpecialChar */
+    code span.ss { color: #bb6688; } /* SpecialString */
+    code span.st { color: #4070a0; } /* String */
+    code span.va { color: #19177c; } /* Variable */
+    code span.vs { color: #4070a0; } /* VerbatimString */
+    code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+</head>
+<body>
+<section id="uso-de-la-api-del-covid19-con-pandas" class="cell markdown">
+<h1>Uso de la API del Covid19 con Pandas</h1>
+</section>
+<div class="cell markdown">
+<p>La URL <a href="https://api.covid19api.com/countries" class="uri">https://api.covid19api.com/countries</a></p>
+</div>
+<section id="instalacion-librerias" class="cell markdown">
+<h2>Instalacion librerias</h2>
+</section>
+<div class="cell markdown">
+<p>Instalamos con <code>!pip</code> una nueva libreria de Pandas, que es una librería de software escrita para analizar y editar datos en Python</p>
+</div>
+<div class="cell code" data-execution_count="2">
+<div class="sourceCode" id="cb1"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install pandas</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>Requirement already satisfied: pandas in /usr/local/lib/python3.8/dist-packages (1.3.1)
+Requirement already satisfied: numpy&gt;=1.17.3 in /usr/local/lib/python3.8/dist-packages (from pandas) (1.21.1)
+Requirement already satisfied: python-dateutil&gt;=2.7.3 in /usr/local/lib/python3.8/dist-packages (from pandas) (2.8.1)
+Requirement already satisfied: pytz&gt;=2017.3 in /usr/local/lib/python3.8/dist-packages (from pandas) (2020.4)
+Requirement already satisfied: six&gt;=1.5 in /usr/lib/python3/dist-packages (from python-dateutil&gt;=2.7.3-&gt;pandas) (1.14.0)
+</code></pre>
+</div>
+</div>
+<section id="configuracion-de-pandas" class="cell markdown">
+<h2>Configuracion de Pandas</h2>
+</section>
+<div class="cell markdown">
+<p>Al importar la librería, configuramos panda como pd</p>
+</div>
+<div class="cell code" data-execution_count="3">
+<div class="sourceCode" id="cb3"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span></code></pre></div>
+</div>
+<section id="crear-la-variable" class="cell markdown">
+<h2>Crear la variable</h2>
+</section>
+<div class="cell markdown">
+<p>Asignamos a la variable URL de antes, de donde pretendemos sacar los datos, para que Python pueda reconocerla</p>
+</div>
+<div class="cell code" data-execution_count="4">
+<div class="sourceCode" id="cb4"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb4-1"><a href="#cb4-1" aria-hidden="true" tabindex="-1"></a>url <span class="op">=</span> <span class="st">&quot;https://api.covid19api.com/countries&quot;</span></span></code></pre></div>
+</div>
+<section id="crear-dataframe" class="cell markdown">
+<h2>Crear dataframe</h2>
+</section>
+<div class="cell markdown">
+<p>Creamos el dataframe. Servirá para visualizar la información de donde extraemos los datos</p>
+<p>Por tanto decimos que el dataframe sea igual a la lectura que hará el Pandas (el cual ya hemos importado como pd), para que así lea los datos de la url con JSON (Java Script Object Notation)</p>
+<p>Para que nos muestre el dataframe que hemos creado usamos df</p>
+</div>
+<div class="cell code" data-execution_count="6">
+<div class="sourceCode" id="cb5"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a>df <span class="op">=</span> pd.read_json(url)</span></code></pre></div>
+</div>
+<div class="cell code" data-execution_count="7">
+<div class="sourceCode" id="cb6"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a>df</span></code></pre></div>
+<div class="output execute_result" data-execution_count="7">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Country</th>
+      <th>Slug</th>
+      <th>ISO2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>French Polynesia</td>
+      <td>french-polynesia</td>
+      <td>PF</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Indonesia</td>
+      <td>indonesia</td>
+      <td>ID</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Malta</td>
+      <td>malta</td>
+      <td>MT</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Sao Tome and Principe</td>
+      <td>sao-tome-and-principe</td>
+      <td>ST</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Haiti</td>
+      <td>haiti</td>
+      <td>HT</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>243</th>
+      <td>Myanmar</td>
+      <td>myanmar</td>
+      <td>MM</td>
+    </tr>
+    <tr>
+      <th>244</th>
+      <td>Turkey</td>
+      <td>turkey</td>
+      <td>TR</td>
+    </tr>
+    <tr>
+      <th>245</th>
+      <td>Western Sahara</td>
+      <td>western-sahara</td>
+      <td>EH</td>
+    </tr>
+    <tr>
+      <th>246</th>
+      <td>Pitcairn</td>
+      <td>pitcairn</td>
+      <td>PN</td>
+    </tr>
+    <tr>
+      <th>247</th>
+      <td>Tanzania, United Republic of</td>
+      <td>tanzania</td>
+      <td>TZ</td>
+    </tr>
+  </tbody>
+</table>
+<p>248 rows × 3 columns</p>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>Vemos que, por defecto, nos salen los cinco primeros y los cinco últimos datos, ya que hay un volumen de datos muy grande. Podemos modificarlo utilizando <code>df.head</code>o <code>df.tail</code> junto al numero de datos que queremos en parentesis (n)</p>
+</div>
+<section id="exploración-de-la-tabla" class="cell markdown">
+<h2>Exploración de la tabla</h2>
+</section>
+<div class="cell code" data-execution_count="9">
+<div class="sourceCode" id="cb7"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a>df.head(<span class="dv">6</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="9">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Country</th>
+      <th>Slug</th>
+      <th>ISO2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>French Polynesia</td>
+      <td>french-polynesia</td>
+      <td>PF</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Indonesia</td>
+      <td>indonesia</td>
+      <td>ID</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Malta</td>
+      <td>malta</td>
+      <td>MT</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Sao Tome and Principe</td>
+      <td>sao-tome-and-principe</td>
+      <td>ST</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Haiti</td>
+      <td>haiti</td>
+      <td>HT</td>
+    </tr>
+    <tr>
+      <th>5</th>
+      <td>Poland</td>
+      <td>poland</td>
+      <td>PL</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="12">
+<div class="sourceCode" id="cb8"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a>df.tail(<span class="dv">2</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="12">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Country</th>
+      <th>Slug</th>
+      <th>ISO2</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>246</th>
+      <td>Pitcairn</td>
+      <td>pitcairn</td>
+      <td>PN</td>
+    </tr>
+    <tr>
+      <th>247</th>
+      <td>Tanzania, United Republic of</td>
+      <td>tanzania</td>
+      <td>TZ</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>Para que muestre la información del dataframe utilizamos <code>df.info()</code> O y si queremos buscar un nombre en concreto en la lista <code>df["Country"]["N"]</code></p>
+</div>
+<div class="cell code" data-execution_count="13" data-scrolled="true">
+<div class="sourceCode" id="cb9"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a>df.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 248 entries, 0 to 247
+Data columns (total 3 columns):
+ #   Column   Non-Null Count  Dtype 
+---  ------   --------------  ----- 
+ 0   Country  248 non-null    object
+ 1   Slug     248 non-null    object
+ 2   ISO2     248 non-null    object
+dtypes: object(3)
+memory usage: 5.9+ KB
+</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="16">
+<div class="sourceCode" id="cb11"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a>df[<span class="st">&quot;Country&quot;</span>][<span class="dv">66</span>]</span></code></pre></div>
+<div class="output execute_result" data-execution_count="16">
+<pre><code>&#39;Somalia&#39;</code></pre>
+</div>
+</div>
+<section id="tiempo-real" class="cell markdown">
+<h2>Tiempo real</h2>
+<p><a href="https://api.covid19api.com/country/spain/status/confirmed/live" class="uri">https://api.covid19api.com/country/spain/status/confirmed/live</a></p>
+</section>
+<div class="cell markdown">
+<p>Hacemos lo mismo pero, este vez con un país en concreto</p>
+<p>Para ello creamos la variable 'España', tanto de los datos como del dataframe (url_es y df_es)</p>
+<p>Nuevamente, igualamos la url de donde que queremos extraer los datos y el data frame a la lectura que queremos que haga Pandas (la cual ya habíamos importado como pd) de la dirección de la que queremos extraer los datos a través de JSON</p>
+<p>Introducimos df_es para que nos muestre la visualizacion de los datos del país</p>
+</div>
+<div class="cell code" data-execution_count="17">
+<div class="sourceCode" id="cb13"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a>url_es <span class="op">=</span> <span class="st">&quot;https://api.covid19api.com/country/spain/status/confirmed/live&quot;</span></span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>df_es <span class="op">=</span> pd.read_json(url_es)</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>df_es</span></code></pre></div>
+<div class="output execute_result" data-execution_count="17">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Country</th>
+      <th>CountryCode</th>
+      <th>Province</th>
+      <th>City</th>
+      <th>CityCode</th>
+      <th>Lat</th>
+      <th>Lon</th>
+      <th>Cases</th>
+      <th>Status</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Spain</td>
+      <td>ES</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40.46</td>
+      <td>-3.75</td>
+      <td>0</td>
+      <td>confirmed</td>
+      <td>2020-01-22 00:00:00+00:00</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Spain</td>
+      <td>ES</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40.46</td>
+      <td>-3.75</td>
+      <td>0</td>
+      <td>confirmed</td>
+      <td>2020-01-23 00:00:00+00:00</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Spain</td>
+      <td>ES</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40.46</td>
+      <td>-3.75</td>
+      <td>0</td>
+      <td>confirmed</td>
+      <td>2020-01-24 00:00:00+00:00</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Spain</td>
+      <td>ES</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40.46</td>
+      <td>-3.75</td>
+      <td>0</td>
+      <td>confirmed</td>
+      <td>2020-01-25 00:00:00+00:00</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Spain</td>
+      <td>ES</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40.46</td>
+      <td>-3.75</td>
+      <td>0</td>
+      <td>confirmed</td>
+      <td>2020-01-26 00:00:00+00:00</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>798</th>
+      <td>Spain</td>
+      <td>ES</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40.46</td>
+      <td>-3.75</td>
+      <td>11508309</td>
+      <td>confirmed</td>
+      <td>2022-03-30 00:00:00+00:00</td>
+    </tr>
+    <tr>
+      <th>799</th>
+      <td>Spain</td>
+      <td>ES</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40.46</td>
+      <td>-3.75</td>
+      <td>11508309</td>
+      <td>confirmed</td>
+      <td>2022-03-31 00:00:00+00:00</td>
+    </tr>
+    <tr>
+      <th>800</th>
+      <td>Spain</td>
+      <td>ES</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40.46</td>
+      <td>-3.75</td>
+      <td>11551574</td>
+      <td>confirmed</td>
+      <td>2022-04-01 00:00:00+00:00</td>
+    </tr>
+    <tr>
+      <th>801</th>
+      <td>Spain</td>
+      <td>ES</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40.46</td>
+      <td>-3.75</td>
+      <td>11551574</td>
+      <td>confirmed</td>
+      <td>2022-04-02 00:00:00+00:00</td>
+    </tr>
+    <tr>
+      <th>802</th>
+      <td>Spain</td>
+      <td>ES</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40.46</td>
+      <td>-3.75</td>
+      <td>11551574</td>
+      <td>confirmed</td>
+      <td>2022-04-03 00:00:00+00:00</td>
+    </tr>
+  </tbody>
+</table>
+<p>803 rows × 10 columns</p>
+</div>
+</div>
+</div>
+<div class="cell markdown" data-slideshow="{&quot;slide_type&quot;:&quot;slide&quot;}">
+<p>df_es y a continuación .columns</p>
+</div>
+<div class="cell code" data-execution_count="18">
+<div class="sourceCode" id="cb14"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a>df_es.columns</span></code></pre></div>
+<div class="output execute_result" data-execution_count="18">
+<pre><code>Index([&#39;Country&#39;, &#39;CountryCode&#39;, &#39;Province&#39;, &#39;City&#39;, &#39;CityCode&#39;, &#39;Lat&#39;, &#39;Lon&#39;,
+       &#39;Cases&#39;, &#39;Status&#39;, &#39;Date&#39;],
+      dtype=&#39;object&#39;)</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="19">
+<div class="sourceCode" id="cb16"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a>df_es[<span class="st">&quot;Date&quot;</span>].head(<span class="dv">1</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="19">
+<pre><code>0   2020-01-22 00:00:00+00:00
+Name: Date, dtype: datetime64[ns, UTC]</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="20">
+<div class="sourceCode" id="cb18"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb18-1"><a href="#cb18-1" aria-hidden="true" tabindex="-1"></a>df_es[<span class="st">&quot;Date&quot;</span>].tail(<span class="dv">1</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="20">
+<pre><code>802   2022-04-03 00:00:00+00:00
+Name: Date, dtype: datetime64[ns, UTC]</code></pre>
+</div>
+</div>
+<div class="cell code" data-execution_count="21">
+<div class="sourceCode" id="cb20"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a>df_es.info()</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>&lt;class &#39;pandas.core.frame.DataFrame&#39;&gt;
+RangeIndex: 803 entries, 0 to 802
+Data columns (total 10 columns):
+ #   Column       Non-Null Count  Dtype              
+---  ------       --------------  -----              
+ 0   Country      803 non-null    object             
+ 1   CountryCode  803 non-null    object             
+ 2   Province     803 non-null    object             
+ 3   City         803 non-null    object             
+ 4   CityCode     803 non-null    object             
+ 5   Lat          803 non-null    float64            
+ 6   Lon          803 non-null    float64            
+ 7   Cases        803 non-null    int64              
+ 8   Status       803 non-null    object             
+ 9   Date         803 non-null    datetime64[ns, UTC]
+dtypes: datetime64[ns, UTC](1), float64(2), int64(1), object(6)
+memory usage: 62.9+ KB
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Le pedimos al dataframe que nos haga una descripción de los datos.</p>
+</div>
+<div class="cell code" data-execution_count="22">
+<div class="sourceCode" id="cb22"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a>df_es.describe()</span></code></pre></div>
+<div class="output execute_result" data-execution_count="22">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Lat</th>
+      <th>Lon</th>
+      <th>Cases</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>count</th>
+      <td>8.030000e+02</td>
+      <td>803.00</td>
+      <td>8.030000e+02</td>
+    </tr>
+    <tr>
+      <th>mean</th>
+      <td>4.046000e+01</td>
+      <td>-3.75</td>
+      <td>3.242248e+06</td>
+    </tr>
+    <tr>
+      <th>std</th>
+      <td>7.109856e-15</td>
+      <td>0.00</td>
+      <td>3.109442e+06</td>
+    </tr>
+    <tr>
+      <th>min</th>
+      <td>4.046000e+01</td>
+      <td>-3.75</td>
+      <td>0.000000e+00</td>
+    </tr>
+    <tr>
+      <th>25%</th>
+      <td>4.046000e+01</td>
+      <td>-3.75</td>
+      <td>3.186710e+05</td>
+    </tr>
+    <tr>
+      <th>50%</th>
+      <td>4.046000e+01</td>
+      <td>-3.75</td>
+      <td>3.149012e+06</td>
+    </tr>
+    <tr>
+      <th>75%</th>
+      <td>4.046000e+01</td>
+      <td>-3.75</td>
+      <td>4.920388e+06</td>
+    </tr>
+    <tr>
+      <th>max</th>
+      <td>4.046000e+01</td>
+      <td>-3.75</td>
+      <td>1.155157e+07</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>Para cambiar la visualización, podemos pedir que, por ejemplo, nos muestre los datos haciendo un índice de los datos clasificados por fecha</p>
+</div>
+<div class="cell code" data-execution_count="23">
+<div class="sourceCode" id="cb23"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a>df_es.set_index(<span class="st">&quot;Date&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="23">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Country</th>
+      <th>CountryCode</th>
+      <th>Province</th>
+      <th>City</th>
+      <th>CityCode</th>
+      <th>Lat</th>
+      <th>Lon</th>
+      <th>Cases</th>
+      <th>Status</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2020-01-22 00:00:00+00:00</th>
+      <td>Spain</td>
+      <td>ES</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40.46</td>
+      <td>-3.75</td>
+      <td>0</td>
+      <td>confirmed</td>
+    </tr>
+    <tr>
+      <th>2020-01-23 00:00:00+00:00</th>
+      <td>Spain</td>
+      <td>ES</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40.46</td>
+      <td>-3.75</td>
+      <td>0</td>
+      <td>confirmed</td>
+    </tr>
+    <tr>
+      <th>2020-01-24 00:00:00+00:00</th>
+      <td>Spain</td>
+      <td>ES</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40.46</td>
+      <td>-3.75</td>
+      <td>0</td>
+      <td>confirmed</td>
+    </tr>
+    <tr>
+      <th>2020-01-25 00:00:00+00:00</th>
+      <td>Spain</td>
+      <td>ES</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40.46</td>
+      <td>-3.75</td>
+      <td>0</td>
+      <td>confirmed</td>
+    </tr>
+    <tr>
+      <th>2020-01-26 00:00:00+00:00</th>
+      <td>Spain</td>
+      <td>ES</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40.46</td>
+      <td>-3.75</td>
+      <td>0</td>
+      <td>confirmed</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>2022-03-30 00:00:00+00:00</th>
+      <td>Spain</td>
+      <td>ES</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40.46</td>
+      <td>-3.75</td>
+      <td>11508309</td>
+      <td>confirmed</td>
+    </tr>
+    <tr>
+      <th>2022-03-31 00:00:00+00:00</th>
+      <td>Spain</td>
+      <td>ES</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40.46</td>
+      <td>-3.75</td>
+      <td>11508309</td>
+      <td>confirmed</td>
+    </tr>
+    <tr>
+      <th>2022-04-01 00:00:00+00:00</th>
+      <td>Spain</td>
+      <td>ES</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40.46</td>
+      <td>-3.75</td>
+      <td>11551574</td>
+      <td>confirmed</td>
+    </tr>
+    <tr>
+      <th>2022-04-02 00:00:00+00:00</th>
+      <td>Spain</td>
+      <td>ES</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40.46</td>
+      <td>-3.75</td>
+      <td>11551574</td>
+      <td>confirmed</td>
+    </tr>
+    <tr>
+      <th>2022-04-03 00:00:00+00:00</th>
+      <td>Spain</td>
+      <td>ES</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>40.46</td>
+      <td>-3.75</td>
+      <td>11551574</td>
+      <td>confirmed</td>
+    </tr>
+  </tbody>
+</table>
+<p>803 rows × 9 columns</p>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>O, si solo queremos que nos muestre la fecha y el número de casos, lo repetimos</p>
+</div>
+<div class="cell code" data-execution_count="24">
+<div class="sourceCode" id="cb24"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>df_es.set_index(<span class="st">&quot;Date&quot;</span>)[<span class="st">&quot;Cases&quot;</span>]</span></code></pre></div>
+<div class="output execute_result" data-execution_count="24">
+<pre><code>Date
+2020-01-22 00:00:00+00:00           0
+2020-01-23 00:00:00+00:00           0
+2020-01-24 00:00:00+00:00           0
+2020-01-25 00:00:00+00:00           0
+2020-01-26 00:00:00+00:00           0
+                               ...   
+2022-03-30 00:00:00+00:00    11508309
+2022-03-31 00:00:00+00:00    11508309
+2022-04-01 00:00:00+00:00    11551574
+2022-04-02 00:00:00+00:00    11551574
+2022-04-03 00:00:00+00:00    11551574
+Name: Cases, Length: 803, dtype: int64</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Una vez vistas las funciones de ordenar y buscar datos podemos hacer que muestre el dataframe a través de un gráfico. Para esto, primero le pedimos que nos saque las fechas y los casos. Utilzamos <code>plot</code>para seleccionar el gráfico e indicamos el nombre de dicho grafico entre paréntesis</p>
+</div>
+<div class="cell code" data-execution_count="26">
+<div class="sourceCode" id="cb26"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb26-1"><a href="#cb26-1" aria-hidden="true" tabindex="-1"></a>df_es.set_index(<span class="st">&quot;Date&quot;</span>)[<span class="st">&quot;Cases&quot;</span>].plot(title<span class="op">=</span><span class="st">&quot;Casos de Covid19 en España&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="26">
+<pre><code>&lt;AxesSubplot:title={&#39;center&#39;:&#39;Casos de Covid19 en España&#39;}, xlabel=&#39;Date&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_26881cda3af7403596f8e9e06d6a1356/e37e1e3466254d84626544e8ad2466011bc94c69.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Repetimos lo mismo con Italia y Alemania para comparar los datos entre ellos</p>
+</div>
+<section id="otro-país" class="cell markdown">
+<h2>Otro País</h2>
+</section>
+<div class="cell code" data-execution_count="28">
+<div class="sourceCode" id="cb28"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb28-1"><a href="#cb28-1" aria-hidden="true" tabindex="-1"></a>url_it <span class="op">=</span> <span class="st">&quot;https://api.covid19api.com/country/italy/status/confirmed/live&quot;</span></span>
+<span id="cb28-2"><a href="#cb28-2" aria-hidden="true" tabindex="-1"></a>df_it <span class="op">=</span> pd.read_json(url_it)</span>
+<span id="cb28-3"><a href="#cb28-3" aria-hidden="true" tabindex="-1"></a>df_it</span></code></pre></div>
+<div class="output execute_result" data-execution_count="28">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Country</th>
+      <th>CountryCode</th>
+      <th>Province</th>
+      <th>City</th>
+      <th>CityCode</th>
+      <th>Lat</th>
+      <th>Lon</th>
+      <th>Cases</th>
+      <th>Status</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>Italy</td>
+      <td>IT</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>41.87</td>
+      <td>12.57</td>
+      <td>0</td>
+      <td>confirmed</td>
+      <td>2020-01-22 00:00:00+00:00</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>Italy</td>
+      <td>IT</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>41.87</td>
+      <td>12.57</td>
+      <td>0</td>
+      <td>confirmed</td>
+      <td>2020-01-23 00:00:00+00:00</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>Italy</td>
+      <td>IT</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>41.87</td>
+      <td>12.57</td>
+      <td>0</td>
+      <td>confirmed</td>
+      <td>2020-01-24 00:00:00+00:00</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>Italy</td>
+      <td>IT</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>41.87</td>
+      <td>12.57</td>
+      <td>0</td>
+      <td>confirmed</td>
+      <td>2020-01-25 00:00:00+00:00</td>
+    </tr>
+    <tr>
+      <th>4</th>
+      <td>Italy</td>
+      <td>IT</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>41.87</td>
+      <td>12.57</td>
+      <td>0</td>
+      <td>confirmed</td>
+      <td>2020-01-26 00:00:00+00:00</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>798</th>
+      <td>Italy</td>
+      <td>IT</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>41.87</td>
+      <td>12.57</td>
+      <td>14567990</td>
+      <td>confirmed</td>
+      <td>2022-03-30 00:00:00+00:00</td>
+    </tr>
+    <tr>
+      <th>799</th>
+      <td>Italy</td>
+      <td>IT</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>41.87</td>
+      <td>12.57</td>
+      <td>14642354</td>
+      <td>confirmed</td>
+      <td>2022-03-31 00:00:00+00:00</td>
+    </tr>
+    <tr>
+      <th>800</th>
+      <td>Italy</td>
+      <td>IT</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>41.87</td>
+      <td>12.57</td>
+      <td>14719394</td>
+      <td>confirmed</td>
+      <td>2022-04-01 00:00:00+00:00</td>
+    </tr>
+    <tr>
+      <th>801</th>
+      <td>Italy</td>
+      <td>IT</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>41.87</td>
+      <td>12.57</td>
+      <td>14790806</td>
+      <td>confirmed</td>
+      <td>2022-04-02 00:00:00+00:00</td>
+    </tr>
+    <tr>
+      <th>802</th>
+      <td>Italy</td>
+      <td>IT</td>
+      <td></td>
+      <td></td>
+      <td></td>
+      <td>41.87</td>
+      <td>12.57</td>
+      <td>14845815</td>
+      <td>confirmed</td>
+      <td>2022-04-03 00:00:00+00:00</td>
+    </tr>
+  </tbody>
+</table>
+<p>803 rows × 10 columns</p>
+</div>
+</div>
+</div>
+<div class="cell code" data-execution_count="29">
+<div class="sourceCode" id="cb29"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb29-1"><a href="#cb29-1" aria-hidden="true" tabindex="-1"></a>df_it.set_index(<span class="st">&quot;Date&quot;</span>)[<span class="st">&quot;Cases&quot;</span>].plot(title<span class="op">=</span><span class="st">&quot;Casos de Covid19 en Italia&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="29">
+<pre><code>&lt;AxesSubplot:title={&#39;center&#39;:&#39;Casos de Covid19 en Italia&#39;}, xlabel=&#39;Date&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_26881cda3af7403596f8e9e06d6a1356/6717562e0f8c26684f0050bc8ce232aa7f589a19.png" /></p>
+</div>
+</div>
+<section id="otro-nuevo-país" class="cell markdown">
+<h2>Otro nuevo país</h2>
+</section>
+<div class="cell code" data-execution_count="30">
+<div class="sourceCode" id="cb31"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb31-1"><a href="#cb31-1" aria-hidden="true" tabindex="-1"></a>url_ger <span class="op">=</span> <span class="st">&quot;https://api.covid19api.com/country/germany/status/confirmed/live&quot;</span></span>
+<span id="cb31-2"><a href="#cb31-2" aria-hidden="true" tabindex="-1"></a>df_ger <span class="op">=</span> pd.read_json(url_ger)</span>
+<span id="cb31-3"><a href="#cb31-3" aria-hidden="true" tabindex="-1"></a>df_ger.set_index(<span class="st">&quot;Date&quot;</span>)[<span class="st">&quot;Cases&quot;</span>].plot(title<span class="op">=</span><span class="st">&quot;Casos de Covid19 en Alemania&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="30">
+<pre><code>&lt;AxesSubplot:title={&#39;center&#39;:&#39;Casos de Covid19 en Alemania&#39;}, xlabel=&#39;Date&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_26881cda3af7403596f8e9e06d6a1356/505e53e5cd8842b429bb0712db4bc1fa039a878b.png" /></p>
+</div>
+</div>
+<section id="comparacion" class="cell markdown">
+<h2>Comparacion</h2>
+<p>Para comparar los datos de los tres países decidimos hacerlo en un solo gráfico</p>
+</section>
+<div class="cell markdown">
+<p>Primero creamos una variable distinta para cada uno de los dataframe de los países que hemos escogido: España, Italia y Alemania</p>
+</div>
+<div class="cell code" data-execution_count="33">
+<div class="sourceCode" id="cb33"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb33-1"><a href="#cb33-1" aria-hidden="true" tabindex="-1"></a>casos_es <span class="op">=</span> df_es.set_index(<span class="st">&quot;Date&quot;</span>)[<span class="st">&quot;Cases&quot;</span>]</span>
+<span id="cb33-2"><a href="#cb33-2" aria-hidden="true" tabindex="-1"></a>casos_it <span class="op">=</span> df_it.set_index(<span class="st">&quot;Date&quot;</span>)[<span class="st">&quot;Cases&quot;</span>]</span>
+<span id="cb33-3"><a href="#cb33-3" aria-hidden="true" tabindex="-1"></a>casos_ger <span class="op">=</span> df_ger.set_index(<span class="st">&quot;Date&quot;</span>)[<span class="st">&quot;Cases&quot;</span>]</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Creamos la variable con vs y visualizamos los datos. A su vez, los igualamos a la concatenación de los dataframe de cada pais que hacemos con Panda. Para ello usamos <code>pd.concat</code> Finalmente introducimos <code>axis=1</code>, y así se ordenan los países en una sola fila Escribimos vs para que nos enseñe la concatenacion de los datos que hemos creado</p>
+</div>
+<div class="cell code" data-execution_count="37" data-scrolled="false">
+<div class="sourceCode" id="cb34"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb34-1"><a href="#cb34-1" aria-hidden="true" tabindex="-1"></a>vs <span class="op">=</span> pd.concat([casos_es,casos_it,casos_ger],axis<span class="op">=</span><span class="dv">1</span>)</span>
+<span id="cb34-2"><a href="#cb34-2" aria-hidden="true" tabindex="-1"></a>vs</span></code></pre></div>
+<div class="output execute_result" data-execution_count="37">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Cases</th>
+      <th>Cases</th>
+      <th>Cases</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2020-01-22 00:00:00+00:00</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2020-01-23 00:00:00+00:00</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2020-01-24 00:00:00+00:00</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2020-01-25 00:00:00+00:00</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2020-01-26 00:00:00+00:00</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>2022-03-30 00:00:00+00:00</th>
+      <td>11508309</td>
+      <td>14567990</td>
+      <td>20829608</td>
+    </tr>
+    <tr>
+      <th>2022-03-31 00:00:00+00:00</th>
+      <td>11508309</td>
+      <td>14642354</td>
+      <td>21394747</td>
+    </tr>
+    <tr>
+      <th>2022-04-01 00:00:00+00:00</th>
+      <td>11551574</td>
+      <td>14719394</td>
+      <td>21394691</td>
+    </tr>
+    <tr>
+      <th>2022-04-02 00:00:00+00:00</th>
+      <td>11551574</td>
+      <td>14790806</td>
+      <td>21591147</td>
+    </tr>
+    <tr>
+      <th>2022-04-03 00:00:00+00:00</th>
+      <td>11551574</td>
+      <td>14845815</td>
+      <td>21706329</td>
+    </tr>
+  </tbody>
+</table>
+<p>803 rows × 3 columns</p>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>Nombramos cada una de las columnas de vs con los nombres de los países correspondientes</p>
+</div>
+<div class="cell code" data-execution_count="38">
+<div class="sourceCode" id="cb35"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb35-1"><a href="#cb35-1" aria-hidden="true" tabindex="-1"></a>vs.columns <span class="op">=</span> [<span class="st">&quot;España&quot;</span>,<span class="st">&quot;Italia&quot;</span>,<span class="st">&quot;Alemania&quot;</span>]</span>
+<span id="cb35-2"><a href="#cb35-2" aria-hidden="true" tabindex="-1"></a>vs</span></code></pre></div>
+<div class="output execute_result" data-execution_count="38">
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>España</th>
+      <th>Italia</th>
+      <th>Alemania</th>
+    </tr>
+    <tr>
+      <th>Date</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>2020-01-22 00:00:00+00:00</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2020-01-23 00:00:00+00:00</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2020-01-24 00:00:00+00:00</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2020-01-25 00:00:00+00:00</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>2020-01-26 00:00:00+00:00</th>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th>...</th>
+      <td>...</td>
+      <td>...</td>
+      <td>...</td>
+    </tr>
+    <tr>
+      <th>2022-03-30 00:00:00+00:00</th>
+      <td>11508309</td>
+      <td>14567990</td>
+      <td>20829608</td>
+    </tr>
+    <tr>
+      <th>2022-03-31 00:00:00+00:00</th>
+      <td>11508309</td>
+      <td>14642354</td>
+      <td>21394747</td>
+    </tr>
+    <tr>
+      <th>2022-04-01 00:00:00+00:00</th>
+      <td>11551574</td>
+      <td>14719394</td>
+      <td>21394691</td>
+    </tr>
+    <tr>
+      <th>2022-04-02 00:00:00+00:00</th>
+      <td>11551574</td>
+      <td>14790806</td>
+      <td>21591147</td>
+    </tr>
+    <tr>
+      <th>2022-04-03 00:00:00+00:00</th>
+      <td>11551574</td>
+      <td>14845815</td>
+      <td>21706329</td>
+    </tr>
+  </tbody>
+</table>
+<p>803 rows × 3 columns</p>
+</div>
+</div>
+</div>
+<div class="cell markdown">
+<p>Para poder ver nuestros datos en un gráfico utilizaremos <code>plot</code>en conjunto a la variable vs. Ponemos un título y seleccionamos el tipo de gráfico que queremos, en nuestro caso uno en el que se pueda apreciar bien el área de cada uno de los países.</p>
+</div>
+<div class="cell code" data-execution_count="41">
+<div class="sourceCode" id="cb36"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb36-1"><a href="#cb36-1" aria-hidden="true" tabindex="-1"></a>vs.plot(title<span class="op">=</span><span class="st">&quot;Casos de Covid19 en España, Italia y Alemania&quot;</span>, kind<span class="op">=</span><span class="st">&quot;area&quot;</span>)</span></code></pre></div>
+<div class="output execute_result" data-execution_count="41">
+<pre><code>&lt;AxesSubplot:title={&#39;center&#39;:&#39;Casos de Covid19 en España, Italia y Alemania&#39;}, xlabel=&#39;Date&#39;&gt;</code></pre>
+</div>
+<div class="output display_data">
+<p><img src="vertopal_26881cda3af7403596f8e9e06d6a1356/f55d5ad6933fb086bdbef12281260ce08a8b336b.png" /></p>
+</div>
+</div>
+<section id="guardar-el-gráfico" class="cell markdown">
+<h2>Guardar el gráfico</h2>
+<p>Modificamos el gráfico al formato de datos de csv e indicamos el nombre del archivo entre paréntesis</p>
+</section>
+<div class="cell code" data-execution_count="42">
+<div class="sourceCode" id="cb38"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb38-1"><a href="#cb38-1" aria-hidden="true" tabindex="-1"></a>vs.to_csv(<span class="st">&quot;esvsit.csv&quot;</span>)</span></code></pre></div>
+</div>
+<div class="cell markdown">
+<p>Si queremos comprobar si nuestro archivo se ha guardado bien usamos <code>!ls</code></p>
+</div>
+<div class="cell code" data-execution_count="43">
+<div class="sourceCode" id="cb39"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb39-1"><a href="#cb39-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>ls</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>esvsit.csv			 python-prueba.ipynb  Shared_Resources
+python-api-covid19-pandas.ipynb  seaborn-data
+</code></pre>
+</div>
+</div>
+<div class="cell markdown">
+<p>Si ahora quisieramos transformar nuestro gráfico en una imagen (.png) haríamos lo siguiente: Importamos la librería que permite guardar imagenes en python: <code>matplotlib.pypplot</code>. La importamos como plt. Pedimos visualizar el gráfico que teníamos creado y usamos plt para guardar la imagen con el nombre "esvsit.png"</p>
+</div>
+<div class="cell code" data-execution_count="44">
+<div class="sourceCode" id="cb41"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb41-1"><a href="#cb41-1" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> matplotlib.pyplot <span class="im">as</span> plt</span>
+<span id="cb41-2"><a href="#cb41-2" aria-hidden="true" tabindex="-1"></a>vs.plot()</span>
+<span id="cb41-3"><a href="#cb41-3" aria-hidden="true" tabindex="-1"></a>plt.savefig(<span class="st">&quot;esvsit.png&quot;</span>)</span></code></pre></div>
+<div class="output display_data">
+<p><img src="vertopal_26881cda3af7403596f8e9e06d6a1356/9c741e5ede7f862925cff2baf853b0221169a0b8.png" /></p>
+</div>
+</div>
+<div class="cell markdown">
+<p>Comprobamos que todo está guardado</p>
+</div>
+<div class="cell code" data-execution_count="45">
+<div class="sourceCode" id="cb42"><pre class="sourceCode python"><code class="sourceCode python"><span id="cb42-1"><a href="#cb42-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>ls</span></code></pre></div>
+<div class="output stream stdout">
+<pre><code>esvsit.csv  python-api-covid19-pandas.ipynb  seaborn-data
+esvsit.png  python-prueba.ipynb		     Shared_Resources
+</code></pre>
+</div>
+</div>
+</body>
+</html>
