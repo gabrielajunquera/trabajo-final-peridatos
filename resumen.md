@@ -109,26 +109,25 @@ A lo largo del documento ya hemos visto algunos de los comandos utilizados para 
 Los comandos siempre mantienen la siguiente estructura: ***comando / opciones / argumentos***
 
  - `pwd` = en qué ruta nos encontramos
--  `ls` = 
-- `cd` = cambiar de directorio 
-- `mv  [origen] [destino]` = comando para mover no renombrar archivos o directorios, en argumentos tenemos que detallar el origen y destino.
+-  `ls` = listar un directorio
+- `cd` = acceder a un directorio específico. Con `cd` nos dirige al directorio raíz, con `cd ..` sube un directorio y con `cd -` nos lleva al último sitio en el que estábamos.
+- `mv`= mueve o corta las carpetas o archivos de sitio, pero también sirve para renombrarlos. Si queremos mover la carpeta de periodismo de datos (`/mnt/c/Users/usuario/Documentos/periodismo-de-datos`) a otro lado, ejecutamos `mv /mnt/c/Users/usuario/Documentos/periodismo-de-datos /mnt/c/Users/usuario/Documentos/Apuntes/` . Como vemos, después de `mv` escribimos la ruta de origen y lo siguiente es el directorio de destino. Si queremos renombrar ejecutamos `mv periodismo-de-datos nuevo-nombre`.
 - `nano` = editar textos. Para editar con `nano`, tenemos que escribir `nano` seguido del nombre del archivo. Si estamos en la carpeta de la asignatura, por ejemplo, escribimos `nano README.md`. Para guardar CTRL + O, y para salir CTRL + X. 
 - `cp [origen] [destino]` = copiar y pegar archivos.
-- `man` = es el comando del manual de la terminal. `Q` para salir del manual.
-- `mkdir [nombre carpeta]` = comando con el que creamos una carpeta
+- `man` = es el comando del manual de la terminal. `Q` para salir.
+- `mkdir [nombre carpeta]` = creamos una carpeta
 - `cat` = con este comando visualizamos un archivo desde la misma terminal. 
-- `echo` = la terminal con este comando nos lo devuelva un texto. Por ejemplo, si queremos saber cuál es nuestra variable de entorno home debemos poner `echo $HOME`. 
+- `echo` = con este comando hacemos que la terminal nos devuelva un texto. Por ejemplo, si queremos saber cuál es nuestra variable de entorno home debemos poner `echo $HOME`. 
 - `env`= visualizar en pantalla todas las variables de entorno. Si lo usamos con `| less`, es un visor más ameno porque son demasiadas variables y no caben en la pantalla: `env | less`. 
-  - `touch`= crea un archivo nuevo. Por ejemplo, si queremos crear un README.md en nuestra carpeta, escribimos `touch README.md` y ya está creado.
-  - `tree`= como `ls` pero con más opciones. Con `tree -L 1` le decimos cuántos niveles queremos ver. También podemos poner `tree -L 2` o `tree -L 3`, según el nivel de detalle (mayor el número mayor el grado de detalle).
+  - `touch`= crea un archivo nuevo. Por ejemplo, si queremos crear un README.md en nuestra carpeta, escribimos `touch README.md`.
+  - `tree`= como `ls` pero con más opciones. Con `tree -L 1` le decimos cuántos niveles queremos ver. También podemos poner `tree -L 2` o `tree -L 3`, según el nivel de detalle.
   - `rm`= eliminar archivos o directorios. Hay que tener cuidado porque los elimina de forma definitiva, los archivos no van a la papelera.
   - `wget`= descargar un archivo/contenido de una web. Tenemos que copiar el enlace de lo que nos queramos descargar. 
   - `curl`= igual que wget pero con más opciones. 
-- `nano` = se abre con el  programa de edición de texto nano que nos permite crear o editar los textos 
 **Comandos de Git** 
 - `git clone` = comando con el que clonamos un repositorio remoto en nuestro directorio local.
 - `git config` = con este comando definimos los valores de configuración de git.Como hemos visto anteriormente: `git config --global user.name`;  `git config --global user.email`;  `git config --global set-editor nano`.
-- `git status` = comando que nos muestra el estado del directorio de trabajo y del área de entorno. Nos permite ver los cambios que se han realizado, los que se han reparado o no, en los que Git no puede vincular etc. 
+- `git status` = comando que nos muestra el estado del directorio de trabajo y del área de entorno. Nos permite ver los cambios que se han realizado, los que se han reparado o no, en los que Git no puede vincular, etc. 
 - `git add “nombre-archivo”` o `git add .` = este comando nos permite añadir los cambios del directorio al entorno de ensayo, es decir con este comando le dices a Git las actualizaciones que quieres realizar. A través del argumento `.` añades todos los nuevos archivos, cambios etc. 
 - `git commit -m “lo que comiteamos” ` o `git commit .` = con este comando realizamos el commit es decir el cambio que hemos realizado se verá con esta acción en GitHub. A través del argumento `.` añades todos los nuevos archivos, cambios etc. 
 - `git push` =  se usa este comando para cargar el contenido del repositorio local al repositorio remoto de Github (en nuestro caso) . Este paso es el último que realizaremos para actualizar los cambios que veíamos en `Git Status`.
